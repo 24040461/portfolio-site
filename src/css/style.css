@@ -415,7 +415,9 @@ Project
     display: none;
 }
 
-
+.btns-overview button{
+    width: 100%;
+}
 
 @media(min-width: 850px){
     .background-img1{
