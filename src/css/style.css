@@ -1,6 +1,7 @@
 
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 
 /* CSS VARIABLES */
@@ -20,7 +21,10 @@ body{
 
  margin: 0 auto;
  
- 
+}
+
+p{
+    font-family: 'Itim', cursive;
 }
 
 
@@ -309,7 +313,10 @@ button:hover{
     cursor: pointer;
     padding: 1em;
 }
-
+.about-me {
+    width: 85%;
+    margin: 0 auto;
+}
 /* Styling for large screens */
 
 @media(min-width: 850px){
@@ -319,9 +326,12 @@ button:hover{
         display: grid;
         grid-gap: 20px;
         grid-template-areas: 
-        ' intro  intro img-myself' 
-        ' intro  intro img-myself';
+        ' intro about-me img-myself ' 
+        ' .  . img-myself ';
         text-align: center;
+    }
+    .about-me {
+        grid-area: about-me;
     }
     .introduction{
         grid-area: intro;
@@ -342,6 +352,7 @@ button:hover{
         'btn-project btn-project';
         text-align: center;
     }
+    
     .project-h2{
         grid-area: project-h2;
         
