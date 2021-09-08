@@ -425,6 +425,25 @@ Project
 .background-img3-large{
     display: none;
 }
+.background-img4{
+    background-image: url(/src/img/EdgeHill-mobile.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: auto;
+    
+}
+.background-img4-large{
+    background-image: url(/src/img/EdgeHill-desktop.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: auto;
+    
+}
+.background-img4-large{
+    display: none;
+}
 
 .btns-overview button{
     width: 100%;
@@ -444,6 +463,9 @@ Project
         display: none;
     }
     .background-img3-large{
+        display: block;
+    }
+    .background-img4-large{
         display: block;
     }
 }
