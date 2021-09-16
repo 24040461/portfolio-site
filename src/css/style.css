@@ -206,6 +206,10 @@ h2{
     text-align: center;
     border-top: 2px solid black;
 }
+h3{
+    font-size: 2em;
+    margin: 1em 0;
+}
 .me{
     border-top: none;
 }
@@ -442,6 +446,25 @@ Project
     
 }
 .background-img4-large{
+    display: none;
+}
+.background-img5{
+    background-image: url(/src/img/VendingMechine.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: auto;
+    
+}
+.background-img5-large{
+    background-image: url(/src/img/VendingMechine.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: auto;
+    
+}
+.background-img5-large{
     display: none;
 }
 
